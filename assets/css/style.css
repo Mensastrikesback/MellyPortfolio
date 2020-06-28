@@ -4,7 +4,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #001524;
   color: #fff;
   position: relative;
   background: transparent;
@@ -13,7 +13,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/hero-bg.png") top left no-repeat;
+  background: #001524 url("../img/hero-bg.png") top left no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -324,8 +324,13 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background:#001524;
   padding: 30px;
+}
+
+.about-me :hover{
+  background-color: #003052;
+  transition: ease-in 0.3s;
 }
 
 @media (max-width: 768px) {
